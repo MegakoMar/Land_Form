@@ -1,6 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 include_once 'config.php';
+date_default_timezone_set('Europe/Moscow');
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +24,7 @@ include_once 'config.php';
 
 
     //Отправка данных на почту, чтобы не спамить при тестах, пока что отключено
-    mail ($emailTo , "From form" , "From\nName: $name\nMessage: - $message", "From $email");
+    //mail ($emailTo , "From form" , "From\nName: $name\nMessage: - $message", "From $email");
 
 
 

@@ -1,3 +1,7 @@
+<?php
+header('Content-Type: text/html; charset=utf-8');
+date_default_timezone_set('Europe/Moscow');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,32 +71,32 @@
         <div>
             <ul class="row">
                 <li class="col-4">
-                    <img src="#"/>
+                    <img src="assets/img/icon1.png"/>
                     <h3>Consectetur vestibulum</h3>
                     <p>Consectetur vestibulum maecenas curabitur hac felis vestibulum urna velit parturient suspendisse a ad lacus mauris</p>
                 </li>
                 <li class="col-4">
-                    <img src="#"/>
+                    <img src="assets/img/icon2.png"/>
                     <h3>Consectetur vestibulum</h3>
                     <p>Consectetur vestibulum maecenas curabitur hac felis vestibulum urna velit parturient suspendisse a ad lacus mauris</p>
                 </li>
                 <li class="col-4">
-                    <img src="#"/>
+                    <img src="assets/img/icon3.png"/>
                     <h3>Consectetur vestibulum</h3>
                     <p>Consectetur vestibulum maecenas curabitur hac felis vestibulum urna velit parturient suspendisse a ad lacus mauris</p>
                 </li>
                 <li class="col-4">
-                    <img src="#"/>
+                    <img src="assets/img/icon4.png"/>
                     <h3>Consectetur vestibulum</h3>
                     <p>Consectetur vestibulum maecenas curabitur hac felis vestibulum urna velit parturient suspendisse a ad lacus mauris</p>
                 </li>
                 <li class="col-4">
-                    <img src="#"/>
+                    <img src="assets/img/icon5.png"/>
                     <h3>Consectetur vestibulum</h3>
                     <p>Consectetur vestibulum maecenas curabitur hac felis vestibulum urna velit parturient suspendisse a ad lacus mauris</p>
                 </li>
                 <li class="col-4">
-                    <img src="#"/>
+                    <img src="assets/img/icon6.png"/>
                     <h3>Consectetur vestibulum</h3>
                     <p>Consectetur vestibulum maecenas curabitur hac felis vestibulum urna velit parturient suspendisse a ad lacus mauris</p>
                 </li>

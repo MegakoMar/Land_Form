@@ -9,6 +9,7 @@ date_default_timezone_set('Europe/Moscow');
     <title>Title</title>
     <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
     <header class="site-header">
@@ -107,24 +108,24 @@ date_default_timezone_set('Europe/Moscow');
         <div class="col-6">
             <div class="timeline">
                 <div class="event">
-                    <div class="event_date">2003</div>
-                    <div class="event_pin"></div>
-                    <div class="event_name">Started</div>
+                    <div class="event__date">2003</div>
+                    <div class="event__pin"></div>
+                    <div class="event__name">Started</div>
                 </div>
                 <div class="event">
-                    <div class="event_date">2006</div>
-                    <div class="event_pin"></div>
-                    <div class="event_name">Important Date One</div>
+                    <div class="event__date">2006</div>
+                    <div class="event__pin"></div>
+                    <div class="event__name">Important Date One</div>
                 </div>
                 <div class="event">
-                    <div class="event_date">2010</div>
-                    <div class="event_pin"></div>
-                    <div class="event_name">Important Date Two</div>
+                    <div class="event__date">2010</div>
+                    <div class="event__pin"></div>
+                    <div class="event__name">Important Date Two</div>
                 </div>
                 <div class="event">
-                    <div class="event_date">2016</div>
-                    <div class="event_pin"></div>
-                    <div class="event_name">Current Time</div>
+                    <div class="event__date">2016</div>
+                    <div class="event__pin"></div>
+                    <div class="event__name">Current Time</div>
                 </div>
             </div>
         </div>
@@ -158,5 +159,7 @@ date_default_timezone_set('Europe/Moscow');
             </div>
         </div>
     </div>
+
+<link href="assets/js/script.js">
 </body>
 </html>

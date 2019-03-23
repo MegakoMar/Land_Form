@@ -22,6 +22,13 @@ date_default_timezone_set('Europe/Moscow');
 
     echo '<br>';
 
+    $pattern = '#\d+#';
+    if (preg_match($pattern, $name)) {
+        echo 'Строка содержит цифры';
+    }
+    else {
+        echo 'Строка не содержит цифры';
+    }
 
     //Отправка данных на почту, чтобы не спамить при тестах, пока что отключено
     //mail ($emailTo , "From form" , "From\nName: $name\nMessage: - $message", "From $email");
@@ -33,16 +40,16 @@ date_default_timezone_set('Europe/Moscow');
 
     // Блок 3: Записываем в БД
     $query_insert = 'INSERT INTO messages (name, email, message, timeOpenForm, timeSendForm) VALUES ("'. $name . '","' . $email . '","' . $message . '","' . $timeOpenForm . '","' . $timeSendForm . '")';
-    mysqli_query($link, $query_insert) or die('Ошибка - Не удалось записать данные в БД!' . mysqli_error($link));
+    //mysqli_query($link, $query_insert) or die('Ошибка - Не удалось записать данные в БД!' . mysqli_error($link));
 
     // Блок 5: Закрыть подключения к базе данных
     mysqli_close($link);
     ?>
-<div class="container">
-    <div class="row">
-        <span>Thanks for your feedback! <br> Your comment is important to us</span>
-    </div>
-</div>
+    <!--<div class="container">
+        <div class="row">
+            <span>Thanks for your feedback! <br> Your comment is important to us</span>
+        </div>
+    </div>-->
 </body>
 </html>
 
